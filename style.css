@@ -167,3 +167,42 @@ body {
     background-color: var(--botao--azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+@media screen and (max-width: 768px) {
+    /* PRIMEIRA SEÇÃO: */
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 70vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    /* SEGUNDA, TERCEIRA E QUARTA SEÇÕES: */
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    /* QUINTA SEÇÃO: */
+    .dispositivos__lista {
+        display: block;
+    }
+
+    /* RODAPÉ: */
+    .rodape__lista {
+        display: block;
+    }
+}
+
+
+
